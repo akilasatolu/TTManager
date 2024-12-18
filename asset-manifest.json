@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ttmanager/static/css/main.f855e6bc.css",
+    "main.js": "/ttmanager/static/js/main.813c84a6.js",
+    "index.html": "/ttmanager/index.html",
+    "main.f855e6bc.css.map": "/ttmanager/static/css/main.f855e6bc.css.map",
+    "main.813c84a6.js.map": "/ttmanager/static/js/main.813c84a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.813c84a6.js"
+  ]
+}
