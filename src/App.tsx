@@ -21,6 +21,7 @@ const app_title = css`
   font-size: var(--font-size-large);
   color: var(--main-highlight-color);
   padding: 32px 0;
+  text-shadow: 2px 5px 2px var(--main-shadow-color);
 `;
 
 function App() {
