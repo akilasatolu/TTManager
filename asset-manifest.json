@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ttmanager/static/css/main.5d56d19c.css",
-    "main.js": "/ttmanager/static/js/main.c75c3ed1.js",
+    "main.css": "/ttmanager/static/css/main.52635caa.css",
+    "main.js": "/ttmanager/static/js/main.604ea491.js",
     "index.html": "/ttmanager/index.html",
-    "main.5d56d19c.css.map": "/ttmanager/static/css/main.5d56d19c.css.map",
-    "main.c75c3ed1.js.map": "/ttmanager/static/js/main.c75c3ed1.js.map"
+    "main.52635caa.css.map": "/ttmanager/static/css/main.52635caa.css.map",
+    "main.604ea491.js.map": "/ttmanager/static/js/main.604ea491.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d56d19c.css",
-    "static/js/main.c75c3ed1.js"
+    "static/css/main.52635caa.css",
+    "static/js/main.604ea491.js"
   ]
 }
