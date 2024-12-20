@@ -1,6 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { useState, useRef } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlay ,faPause } from "@fortawesome/free-solid-svg-icons";
 
 const tt_item = css`
   flex-basis: 49%;
@@ -31,13 +33,16 @@ const tt_btn = css`
 `;
 
 const tt_btn_i = css`
-  padding: 3px 20px;
+  padding: 3px 16px;
   border-radius: 10px;
   border: 2px solid var(--main-highlight-color);
-  position: relative;
   &:hover {
     cursor: pointer;
   }
+`;
+
+const tt_btn_i_fa = css`
+  width:15px;
 `;
 
 const tt_time = css`
@@ -85,7 +90,9 @@ const Task = (props: Props) => {
     <li key={props.id} css={tt_item}>
       <div css={tt_item_head}>
         <p css={tt_btn}>
-          <span onClick={handleClick} css={[tt_btn_i, css`&::after { position: absolute; top: 2px; right: ${isCounting ? '13px' : '12px'}; content: ${isCounting ? '"⏸"' : '"▶️"'}; }`]}></span>
+          <span onClick={handleClick} css={tt_btn_i}>
+            <FontAwesomeIcon css={tt_btn_i_fa} icon={isCounting ? faPause : faPlay} />
+          </span>
         </p>
         <p css={tt_time}>{secondsToTime(time)}</p>
       </div>
