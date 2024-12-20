@@ -20,6 +20,7 @@ const app_title = css`
   text-align: center;
   font-size: var(--font-size-large);
   color: var(--main-highlight-color);
+  padding: 32px 0;
 `;
 
 function App() {

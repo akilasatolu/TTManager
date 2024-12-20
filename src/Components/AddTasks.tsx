@@ -15,6 +15,12 @@ const addTasks_form = css`
   background-color: var(--main-bg-color);
   font-size: var(--font-size-large);
   border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid var(--main-text-color);
+  &:focus {
+    border: 2px solid var(--main-highlight-color);
+    padding: 4px 9px
+  }
 `;
 
 const addTasks_btn = css`
