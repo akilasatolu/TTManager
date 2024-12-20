@@ -19,7 +19,7 @@ const addTasks_form = css`
   border: 1px solid var(--main-text-color);
   &:focus {
     border: 2px solid var(--main-highlight-color);
-    padding: 4px 9px
+    padding: 4px 9px;
   }
 `;
 
