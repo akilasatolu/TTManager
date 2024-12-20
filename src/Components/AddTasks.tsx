@@ -17,6 +17,7 @@ const addTasks_form = css`
   border-radius: 10px;
   padding: 5px 10px;
   border: 1px solid var(--main-text-color);
+  box-shadow: 0px 5px 10px 0px var(--main-shadow-color);
   &:focus {
     border: 2px solid var(--main-highlight-color);
     padding: 4px 9px;
@@ -31,6 +32,7 @@ const addTasks_btn = css`
   padding: 5px 10px;
   border-radius: 10px;
   border: 2px solid var(--main-highlight-color);
+  box-shadow: 0px 5px 10px 0px var(--main-shadow-color);
   &:hover {
     cursor: pointer;
   }
